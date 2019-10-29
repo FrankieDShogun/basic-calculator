@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <title>Basic Calculator</title>
 </head>
 <body>
-    <div></div>
+    <div class="calculator">
+        <input type="text" class="result" id="input" readonly>
+        <div class="buttons">
+            <ul class="butTons">
+                <button class="button" id="C">C</button>
+                <button class="button" id="bspace"><-</button>
+                <button class="button" id="value">+/-</button>
+                <button class="button" id="divide">/</button>
+            </ul>
+            <ul class="butTons">
+                <button class="button" id="seven">7</button>
+                <button class="button" id="eight">8</button>
+                <button class="button" id="nine">9</button>
+                <button class="button" id="multiply">X</button>
+            </ul>
+            <ul class="butTons">
+                <button class="button" id="four">4</button>
+                <button class="button" id="five">5</button>
+                <button class="button" id="six">6</button>
+                <button class="button" id="minus">-</button>
+            </ul>
+            <ul class="butTons">
+                <button class="button" id="one">1</button>
+                <button class="button" id="two">2</button>
+                <button class="button" id="three">3</button>
+                <button class="button" id="plus">+</button>
+            </ul>
+            <ul class="butTons">
+                <button class="button" id="zero">0</button>
+                <button class="button" id="float">.</button>
+                <button class="button" id="result">=</button>
+            </ul>
+        </div>
+    </div>
+    <script src="basic.js"></script>
 </body>
 </html>
