@@ -7,6 +7,7 @@ body {
     animation-name: background;
     animation-duration: 4s;
     animation-iteration-count:  infinite;
+    font-size: 18px;
 }
 
 @keyframes background {
@@ -23,12 +24,15 @@ div.calculator {
 
 input.result {
     margin: 5px;
-    padding: 0;
-    width: 242px;
+    padding: 5px;
+    width: 232px;
     height: 50px;
     background-color: #E3E7F1;
     color: white;
     border: 1px lightslategray solid;
+    opacity: 0.7;
+    font-size: 32px;
+    text-align: right;
 }
 
 div.buttons ul {
@@ -44,6 +48,9 @@ div.buttons ul {
     margin: 5px;
     padding: 10px;
     background-color: #E3E7F1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    opacity: 0.6;
     transition: 0.3s;
     transition-duration: 2s;
 }
@@ -58,6 +65,21 @@ div.buttons ul {
 
 button#zero {
     width: 115px;
+}
+
+button#C {
+    color: yellow;
+    background-color: orange;
+}
+
+button#bspace {
+    color: yellow;
+    background-color: orange;
+}
+
+button#result {
+    color: yellow;
+    background-color: orange;
 }
 
 /* 494CA2, 8186D5, C6CBEF, E3E7F1*/
