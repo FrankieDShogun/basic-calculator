@@ -3,13 +3,4 @@
 
 List of options:
 1. Basic
-____________________  
-|                   |  
-|                   |  
-|___________________|  
-|  C   <-   +/-   / |  
-|  7    8    9    x |  
-|  4    5    6    - |  
-|  1    2    3    + |  
-|     0      .    = |  
-|___________________|  
+> A simple basic calculator that can run addition, subtraction, multiplication, and division.
