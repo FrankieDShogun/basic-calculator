@@ -1,5 +1,5 @@
 # Android-calculator
- A calculator made for android
+ A calculator made for android(eventually)
 
 List of options:
 1. Basic
