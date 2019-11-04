@@ -4,7 +4,10 @@ let arrayNum = [];
 
 const operationChange = operation => {
     let lastNum = arrayNum[arrayNum.length - 1];
-    if (lastNum != '*' && lastNum != '/' && lastNum != '+' && lastNum != '-') {
+    if (lastNum == undefined) {
+        document.getElementById('input').placeholder = '';
+        console.log(arrayNum);
+    }else if (lastNum != '*' && lastNum != '/' && lastNum != '+' && lastNum != '-') {
         arrayNum.push(operation);
         document.getElementById('input').placeholder += operation;
         console.log(arrayNum);
